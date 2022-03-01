@@ -1,0 +1,45 @@
+.navbar {
+  /* background-color: grey; */
+  width: 100%;
+  height: 10rem;
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar-container {
+  width: 80vw;
+  height: 100%;
+  margin: auto;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navbar-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  list-style-type: none;
+
+  padding-left: 30px;
+}
+
+.navbar-list-item {
+  margin: 2rem;
+  color: black;
+}
+
+.navbar-btn {
+  margin-left: auto;
+}
+
+.navbar-login-btn,
+.navbar-signup-btn {
+  margin: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  height: 40px;
+  width: 80px;
+}

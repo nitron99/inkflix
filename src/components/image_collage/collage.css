@@ -1,0 +1,19 @@
+.collage-container {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.college-columns {
+  width: 325px;
+}
+
+.collage-img {
+  width: 325px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 50px;
+}
